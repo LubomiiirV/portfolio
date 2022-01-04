@@ -222,7 +222,7 @@ section .title::after {
 
 /* about section styling */
 .about .title::after {
-  content: 'kto som';
+  content: 'who i am';
 }
 
 .about .about-content .left {
@@ -287,7 +287,7 @@ section .title::after {
 
 .services .title::after,
 .teams .title::after {
-  content: 'čo ponúkam';
+  content: 'what i offer';
   background: #111;
 }
 
@@ -332,7 +332,7 @@ section .title::after {
 
 /* skills section styling */
 .skills .title::after {
-  content: 'čo viem';
+  content: 'what i know';
 }
 
 .skills .skills-content .column {
@@ -414,7 +414,7 @@ section .title::after {
 
 /* teams section styling */
 .teams .title::after {
-  content: 'členovia';
+  content: 'my team';
 }
 
 .teams .carousel .card {
@@ -492,7 +492,7 @@ active {
 
 /* contact section */
 .contact .title::after {
-  content: "pre prípad";
+  content: "in case of";
 }
 
 .contact .contact-content .column {
