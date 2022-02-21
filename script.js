@@ -1,23 +1,25 @@
+
 $(document).ready(function () {
+  // sticky navbar
   $(window).scroll(function () {
     if (this.scrollY > 20) {
-      $('.navbar').addClass('sticky');
+      $(".navbar").addClass("sticky");
     } else {
-      $('.navbar').removeClass('sticky');
+      $(".navbar").removeClass("sticky");
     }
     $(window).scroll(function () {
       if ($(this).scrollTop() > 500) {
-        $('.scroll-up-btn').fadeIn();
+        $(".scroll-up-btn").fadeIn();
       } else {
-        $('.scroll-up-btn').fadeOut();
+        $(".scroll-up-btn").fadeOut();
       }
     });
   });
 
   // toggle menu/navbar script
-  $('.menu-btn').click(function () {
-    $('.navbar .menu').toggleClass('active');
-    $('menu-btn i').toggleClass('active');
+  $(".menu-btn").click(function () {
+    $(".navbar .menu").toggleClass("active");
+    $("menu-btn i").toggleClass("active");
   });
 
   // typing animation script
@@ -25,19 +27,18 @@ $(document).ready(function () {
     strings: ["HTML", "CSS", "Javascriptom."],
     typeSpeed: 60,
     backSpeed: 60,
-    loop: true
+    loop: true,
   });
 
   var typed = new Typed(".typing-2", {
     strings: ["HTML", "CSS", "Javascriptom."],
     typeSpeed: 60,
     backSpeed: 60,
-    loop: true
+    loop: true,
   });
 
-
   //slide-up script
-  $('.scroll-up-btn').click(function () {
+  $(".scroll-up-btn").click(function () {
     $("html, body").animate({ scrollTop: 0 }, 200);
     return false;
   });
@@ -51,17 +52,16 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1,
-        nav: false
+        nav: false,
       },
       600: {
         items: 2,
-        nav: false
+        nav: false,
       },
       1000: {
         items: 3,
-        nav: false
-      }
-    }
-  })
-
+        nav: false,
+      },
+    },
+  });
 });

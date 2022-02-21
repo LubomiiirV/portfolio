@@ -91,6 +91,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 .scroll-up-btn {
+  display: none;
   position: fixed;
   height: 45px;
   width: 42px;
