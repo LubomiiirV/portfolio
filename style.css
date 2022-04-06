@@ -51,6 +51,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 .navbar .logo img{
   width: 200px;
+  filter: invert(100%);
 }
 
 .navbar.sticky .logo a span {
