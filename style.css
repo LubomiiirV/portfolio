@@ -49,6 +49,10 @@ font-family: 'Ubuntu', sans-serif; */
   font-weight: 600;
 }
 
+.navbar .logo img{
+  width: 200px;
+}
+
 .navbar.sticky .logo a span {
   color: rgb(220, 157, 20);
   transition: all 0.3s ease;
