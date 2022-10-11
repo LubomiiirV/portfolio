@@ -49,7 +49,7 @@ font-family: 'Ubuntu', sans-serif; */
   font-weight: 600;
 }
 
-.navbar .logo img{
+.navbar .logo img {
   width: 200px;
   filter: invert(100%);
 }
@@ -281,6 +281,18 @@ section .title::after {
 .about .about-content .right a:active {
   color: rgb(220, 157, 20);
   background: none;
+}
+
+.pe {
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.arrow {
+  width: 100px;
+  padding-top: 50px;
 }
 
 /* services section styling */
@@ -750,7 +762,8 @@ footer span a:active {
     font-size: 20px;
     border-radius: 5px;
   }
-  .navbar .max-width{
+
+  .navbar .max-width {
     padding: 0 23px;
   }
 

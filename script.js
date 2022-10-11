@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   // sticky navbar
   $(window).scroll(function () {
@@ -16,6 +15,12 @@ $(document).ready(function () {
     });
   });
 
+  var blink_speed = 800; // every 1000 == 1 second, adjust to suit
+  var t = setInterval(function () {
+    var ele = document.getElementById("pe");
+    ele.style.visibility = ele.style.visibility == "hidden" ? "" : "hidden";
+  }, blink_speed);
+
   // toggle menu/navbar script
   $(".menu-btn").click(function () {
     $(".navbar .menu").toggleClass("active");
@@ -24,7 +29,7 @@ $(document).ready(function () {
 
   // typing animation script
   const typed = new Typed(".typing", {
-    strings: ["HTML, CSS, Javascript,", "Bootstrap, Tailwind."],
+    strings: ["HTML, CSS, Javascript,", "Selenium, Cypress."],
     typeSpeed: 60,
     backSpeed: 10,
     loop: true,
